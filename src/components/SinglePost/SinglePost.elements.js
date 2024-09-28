@@ -29,7 +29,7 @@ export const useStyles = makeStyles((theme) => ({
       color: "black",
 
       "&:hover": {
-        color: "rgba(79, 164, 221, 0.8)",
+        color: "rgb(218, 11, 11)",
       },
     },
 
@@ -55,7 +55,7 @@ export const useStyles = makeStyles((theme) => ({
       position: "absolute",
       bottom: "-5px",
       width: "20%",
-      border: "2px solid rgba(79, 164, 221, 0.8)",
+      border: "2px solid rgb(218, 11, 11)",
     },
   },
   authorDate: {
@@ -82,7 +82,7 @@ export const useStyles = makeStyles((theme) => ({
     cursor: "pointer",
 
     "&:hover": {
-      color: "rgba(79, 164, 221, 0.8)",
+      color: "rgb(218, 11, 11)",
     },
   },
   date: {
@@ -92,8 +92,8 @@ export const useStyles = makeStyles((theme) => ({
   blockContent: {
     marginTop: "20px",
     padding: "20px 0",
-    borderTop: "2px solid rgba(79, 164, 221, 0.8)",
-    borderBottom: "2px solid rgba(79, 164, 221, 0.8)",
+    borderTop: "2px solid rgb(218, 11, 11)",
+    borderBottom: "2px solid rgb(218, 11, 11)",
     width: "100%",
 
     "& h1": {
@@ -156,7 +156,7 @@ export const useStyles = makeStyles((theme) => ({
       position: "absolute",
       bottom: "-5px",
       width: "100%",
-      border: "2px solid rgba(79, 164, 221, 0.8)",
+      border: "2px solid rgb(218, 11, 11)",
     },
   },
   recentPosts: {
@@ -207,7 +207,7 @@ export const useStyles = makeStyles((theme) => ({
   },
   postImg: {
     backgroundSize: "cover",
-    background: "#c5d2d9 no-repeat 50%",
+    background: "#da0b0b no-repeat 50%",
     position: "absolute",
     top: 0,
     left: 0,
@@ -253,14 +253,14 @@ export const useStyles = makeStyles((theme) => ({
   button: {
     borderRadius: "20px",
     fontSize: "20px",
-    background: "rgba(79, 164, 221, 0.8)",
+    background: "rgb(218, 11, 11)",
     color: "black",
     fontWeight: "bold",
     margin: "5px 0",
     transition: "all 0.3s ease-in-out",
 
     "&:hover": {
-      background: "rgba(79, 164, 221, 0.7)",
+      background: "rgb(218, 11, 10)",
       color: "white",
     },
 

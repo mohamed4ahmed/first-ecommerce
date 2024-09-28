@@ -5,7 +5,7 @@ export const useStyles = makeStyles((theme) => ({
     height: "45vh",
     position: "relative",
     overflow: "hidden",
-    backgroundColor: "#cab9a9",
+    backgroundColor: "#da0b0b",
 
     [theme.breakpoints.down("md")]: {
       height: "60vh",
@@ -125,7 +125,7 @@ export const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
 
     "&:hover": {
-      background: "rgba(79, 164, 221, 0.8)",
+      background: "rgb(218, 11, 11)",
       transform: "scale(1.05)",
     },
     "& svg": {
@@ -139,7 +139,7 @@ export const useStyles = makeStyles((theme) => ({
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#cab9a9",
+    backgroundColor: "#da0b0b",
 
     [theme.breakpoints.down("md")]: {},
   },

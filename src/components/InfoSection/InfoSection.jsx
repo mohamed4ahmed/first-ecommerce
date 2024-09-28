@@ -36,7 +36,7 @@ const InfoSection = () => {
                     effect="blur"
                   />
                   <div className={classes.imgAbout}>
-                    <Typography variant="h3">ABOUT First Ecommerce.</Typography>
+                    <Typography variant="h3">ABOUT SIMKSA</Typography>
                   </div>
                 </div>
               </div>

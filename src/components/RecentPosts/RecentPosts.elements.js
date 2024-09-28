@@ -26,7 +26,7 @@ export const useStyles = makeStyles((theme) => ({
       position: "absolute",
       bottom: "-5px",
       width: "70%",
-      border: "2px solid rgba(79, 164, 221, 0.8)",
+      border: "2px solid rgb(218, 11, 11)",
     },
   },
 
@@ -43,7 +43,7 @@ export const useStyles = makeStyles((theme) => ({
     color: "black",
 
     "&:hover p": {
-      color: "rgba(79, 164, 221, 0.7)",
+      color: "rgb(218, 11, 10)",
     },
   },
   postImg: {
@@ -98,13 +98,13 @@ export const useStyles = makeStyles((theme) => ({
   facebook: {
     color: "black",
     "&:hover": {
-      color: "rgba(79, 164, 221, 0.7)",
+      color: "rgb(218, 11, 10)",
     },
   },
   instagram: {
     color: "#black",
     "&:hover": {
-      color: "#d6249f",
+      color: "#da0b0b",
     },
   },
 }));

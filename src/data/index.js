@@ -8,70 +8,70 @@ export const products = [
     name: "Special Products",
   },
   {
-    id: "oneCategory",
-    name: "First Category",
+    id: "fiberLaser",
+    name: "Fiber Laser",
   },
   {
-    id: "twoCategory",
-    name: "Second Category",
+    id: "pressBrakes",
+    name: "Press Brakes",
   },
   {
-    id: "threeCategory",
-    name: "Third Category",
+    id: "automation",
+    name: "Automation",
   },
-  {
-    id: "fourCategory",
-    name: "Fourth Category",
-  },
-  {
-    id: "fiveCategory",
-    name: "Fifth Category",
-  },
-  {
-    id: "sixCategory",
-    name: "Six Category",
-  },
-  {
-    id: "sevenCategory",
-    name: "Seven Category",
-  },
-  {
-    id: "eightCategory",
-    name: "Eight Category",
-  },
-  {
-    id: "nineCategory",
-    name: "Nine Category",
-  },
-  {
-    id: "tenCategory",
-    name: "Ten Category",
-  },
+  // {
+  //   id: "fourCategory",
+  //   name: "Fourth Category",
+  // },
+  // {
+  //   id: "fiveCategory",
+  //   name: "Fifth Category",
+  // },
+  // {
+  //   id: "sixCategory",
+  //   name: "Six Category",
+  // },
+  // {
+  //   id: "sevenCategory",
+  //   name: "Seven Category",
+  // },
+  // {
+  //   id: "eightCategory",
+  //   name: "Eight Category",
+  // },
+  // {
+  //   id: "nineCategory",
+  //   name: "Nine Category",
+  // },
+  // {
+  //   id: "tenCategory",
+  //   name: "Ten Category",
+  // },
 ];
 
 export const online = [
   {
-    subHeader: "First E-commerce",
-    header: "اطلب الان",
+    subHeader: "Simksa",
+    header: "Order Now",
     description:
-      "اطلب ملابسك اون لاين وخدمات  First ecommerce يجلبها لك مع خدمة التوصيل السريع",
-    linkBtn: "tel:+201099383905", //URL Link
+      "Order your machine online and Simksa services bring it to you with fast delivery to your location ",
+    linkBtn: "tel:+966539941921", //URL Link
     img: grabImg,
   },
   {
-    subHeader: " First ecommerce",
-    header: "اطلب الان",
+    subHeader: "Simksa",
+    header: "Order Now",
     description:
-      "اطلب ملابسك اون لاين وخدمات  First ecommerce يجلبها لك مع خدمة التوصيل السريع",
-    linkBtn: "tel:+201099383905", //href Link
+      "Order your machine online and Simksa services bring it to you with fast delivery to your location",
+    linkBtn: "tel:+966539941921", //href Link
     img: nowImg,
   },
   {
-    subHeader: " First ecommerce",
-    header: "اطلب الان",
+    subHeader: "Simksa",
+    header: "Order Now",
     description:
-      "اطلب ملابسك اون لاين وخدمات  First ecommerce يجلبها لك مع خدمة التوصيل السريع",
-    linkBtn: "tel:+201099383905", //URL Link
+      "Order your machine online and Simksa services bring it to you with fast delivery to your location ",
+    linkBtn: "tel:+966539941921", //URL Link
     img: loshipImg,
   },
 ];

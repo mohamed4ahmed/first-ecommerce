@@ -27,7 +27,7 @@ const SinglePost = ({ post, recentPosts }) => {
 
   useEffect(() => {
     if (post) {
-      document.title = `${post.title} - First Ecommerce`;
+      document.title = `${post.title} - Simksa`;
     }
   }, [post]);
 
@@ -81,8 +81,7 @@ const SinglePost = ({ post, recentPosts }) => {
                           className={classes.authorImg}
                         />
                         <a
-                          //   href="https://www.facebook.com/Kruoke.AbouOmar"
-                          href="https://www.facebook.com"
+                          href="https://www.facebook.com/profile.php?id=61566517260195"
                           target="__blank"
                           aria-label="Author"
                           className={classes.authorName}

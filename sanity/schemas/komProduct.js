@@ -24,7 +24,7 @@ export default {
       options: {
         list: [
           { value: "special", title: "Special" },
-          { value: "oneCategory", title: "OneCategory" },
+          { value: "fiberLaser", title: "Fiber Laser Machine" },
         ],
       },
     },
@@ -43,11 +43,11 @@ export default {
       title: "Best Seller",
       type: "boolean",
     },
-    {
-      name: "price",
-      title: "Price",
-      type: "number",
-    },
+    // {
+    //   name: "price",
+    //   title: "Price",
+    //   type: "number",
+    // },
     {
       name: "mainImage",
       title: "Main image",

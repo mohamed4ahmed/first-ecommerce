@@ -10,14 +10,14 @@ export const useStyles = makeStyles((theme) => ({
   button: {
     borderRadius: "20px",
     fontSize: "20px",
-    background: "rgba(79, 164, 221, 0.8)",
+    background: "rgb(218, 11, 11)",
     color: "black",
     fontWeight: "bold",
     margin: "5px 0",
     transition: "all 0.3s ease-in-out",
 
     "&:hover": {
-      background: "rgba(79, 164, 221, 0.7)",
+      background: "rgb(218, 11, 10)",
       color: "white",
     },
 
@@ -53,7 +53,7 @@ export const useStyles = makeStyles((theme) => ({
       paddingRight: "10px",
 
       "&:hover": {
-        color: "rgba(79, 164, 221, 0.8)",
+        color: "rgb(218, 11, 11)",
       },
     },
 
@@ -83,7 +83,7 @@ export const useStyles = makeStyles((theme) => ({
     height: "auto",
     verticalAlign: "middle",
     borderRadius: "20px",
-    border: "3px solid rgba(79, 164, 221, 0.8)",
+    border: "3px solid rgb(218, 11, 11)",
     transition: "all .2s ease-in-out",
 
     "&:hover": {
@@ -120,13 +120,13 @@ export const useStyles = makeStyles((theme) => ({
       position: "absolute",
       bottom: "-5px",
       width: "30%",
-      border: "2px solid rgba(79, 164, 221, 0.8)",
+      border: "2px solid rgb(218, 11, 11)",
     },
   },
   price: {
     marginBottom: "20px",
     fontSize: "32px",
-    color: "rgba(79, 164, 221, 0.8)",
+    color: "rgb(218, 11, 11)",
     overflow: "hidden",
     display: "block",
 
@@ -140,7 +140,7 @@ export const useStyles = makeStyles((theme) => ({
     fontSize: "18px",
     padding: "10px 0",
     "& a": {
-      color: "rgba(79, 164, 221, 0.8)",
+      color: "rgb(218, 11, 11)",
       cursor: "pointer",
     },
   },
@@ -272,7 +272,7 @@ export const useStyles = makeStyles((theme) => ({
     display: "flex",
     justifyContent: "center",
     marginBottom: "30px",
-    borderTop: "2px solid rgba(79, 164, 221, 0.8)",
+    borderTop: "2px solid rgb(218, 11, 11)",
     paddingTop: "50px",
   },
   headerRecentPostsText: {
@@ -286,7 +286,7 @@ export const useStyles = makeStyles((theme) => ({
       position: "absolute",
       bottom: "-5px",
       width: "100%",
-      border: "2px solid rgba(79, 164, 221, 0.8)",
+      border: "2px solid rgb(218, 11, 11)",
     },
   },
   blockContent: {

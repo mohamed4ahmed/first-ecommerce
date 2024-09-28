@@ -34,7 +34,7 @@ const InstaPosts = () => {
               <div className={classes.headerSubtitleWrapper}>
                 <Typography variant="h6" className={classes.headerSubtitle}>
                   {" "}
-                  #Firsr Ecommerce
+                  #SIMKSA
                 </Typography>
               </div>
             </div>
@@ -58,7 +58,7 @@ const InstaPosts = () => {
             </div>
             <div className={classes.footer}>
               <a
-                href="https://www.instagram.com"
+                href="https://www.instagram.com/sim79972?igsh=MTJ4MTBkbHpkcmQ1Yg%3D%3D&utm_source=qr"
                 target="__blank"
                 aria-label="Instagram"
               >

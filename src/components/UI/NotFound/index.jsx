@@ -15,7 +15,7 @@ function NotFound() {
           <p>
             Let's go{" "}
             <Link to="/" className="a">
-              صــفـقـة صفحةالرئيسية
+            Smart Integrated Machinery 
             </Link>{" "}
             and try from there.
           </p>

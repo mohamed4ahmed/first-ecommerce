@@ -63,7 +63,7 @@ export const useStyles = makeStyles((theme) => ({
       position: "absolute",
       bottom: "-5px",
       width: "20%",
-      border: "2px solid rgba(79, 164, 221, 0.8)",
+      border: "2px solid rgb(218, 11, 11)",
     },
   },
 
@@ -99,13 +99,13 @@ export const useStyles = makeStyles((theme) => ({
     marginTop: "20px",
     borderRadius: "20px",
     fontSize: "20px",
-    background: "rgba(79, 164, 221, 0.8)",
+    background: "rgb(218, 11, 11)",
     color: "black",
     fontWeight: "bold",
     transition: "all 0.3s ease-in-out",
 
     "&:hover": {
-      background: "rgba(79, 164, 221, 0.7)",
+      background: "rgb(218, 11, 10)",
       color: "white",
     },
 
@@ -157,7 +157,7 @@ export const useStyles = makeStyles((theme) => ({
     fontSize: "30px",
 
     "&:hover": {
-      color: "rgba(79, 164, 221, 0.8)",
+      color: "rgb(218, 11, 11)",
     },
   },
   buttonGroup: {

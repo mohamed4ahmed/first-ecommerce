@@ -1,11 +1,9 @@
-import { Container, Typography } from "@material-ui/core";
+import { Container } from "@material-ui/core";
 import React from "react";
 import { useStyles } from "./Footer.elements";
 import logoImg from "../../assets/img/logo-web-white.png";
 import { NavLink } from "react-router-dom";
-import { FaFacebook, FaInstagram, FaWhatsapp, FaPhone } from "react-icons/fa";
-import { GrMail } from "react-icons/gr";
-import { SiGooglemaps } from "react-icons/si";
+import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   const classes = useStyles();
@@ -14,69 +12,6 @@ const Footer = () => {
     <div className={classes.footer}>
       <Container maxWidth="lg">
         <div className={classes.footer__wrap}>
-          <div className={classes.info}>
-            <Typography variant="h6" className={classes.subTitle}>
-              Location :{" "}
-              <a
-                href="https://www.google.com/maps"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <SiGooglemaps /> Get Directions
-              </a>
-            </Typography>
-
-            <Typography variant="h6" className={classes.subTitle}>
-              Phone :{" "}
-              <a href="tel:+201099383905">
-                <FaPhone /> +201099383905
-              </a>
-            </Typography>
-
-            <Typography variant="h6" className={classes.subTitle}>
-              Email :{" "}
-              <a href="mailto:mohamed.ahmed8412000@gmail.com">
-                <GrMail /> mohamed.ahmed8412000@gmail.com
-              </a>
-            </Typography>
-
-            <Typography variant="h6" className={classes.subTitle}>
-              مواعيد العمل : من 10 صباحآ الي 10 مساء طوال الاسبوع
-            </Typography>
-
-            <ul className={classes.nav__menu}>
-              <li className={classes.nav__item}>
-                <NavLink
-                  to="/products"
-                  className={classes.nav__link}
-                  activeClassName={classes.activeClass}
-                >
-                  مـنـتـجـاتـنا
-                </NavLink>
-              </li>
-
-              <li className={classes.nav__item}>
-                <NavLink
-                  to="/blog"
-                  className={classes.nav__link}
-                  activeClassName={classes.activeClass}
-                >
-                  أحـدث الأخـبـار
-                </NavLink>
-              </li>
-
-              <li className={classes.nav__item}>
-                <NavLink
-                  to="/membership"
-                  className={classes.nav__link}
-                  activeClassName={classes.activeClass}
-                >
-                  تـسـجـيـل عـضـويه
-                </NavLink>
-              </li>
-            </ul>
-          </div>
-
           <NavLink to="/" className={classes.footer__logo}>
             <img
               src={logoImg}
@@ -86,12 +21,12 @@ const Footer = () => {
           </NavLink>
           <div className={classes.footer__center}>
             <div className={classes.footer__centerText}>
-              Frist Ecommmerce  @ 2022.
+              SIMKSA @ 2025.
             </div>
             <div className={classes.footer__centerText}>
               Made with ♥ by:{" "}
               <a
-                href="https://www.mohamedahmed.ml"
+                href="https://mohamed4ahmed.github.io/portfolio"
                 target="__blank"
                 aria-label="Facebook"
                 className={classes.footer__centerMo}
@@ -103,7 +38,8 @@ const Footer = () => {
           <div className={classes.footer__right}>
             <a
               className={classes.footer__rightLink}
-              href="https://www.facebook.com"
+              rel="noopener noreferrer"
+              href="https://www.facebook.com/profile.php?id=61566517260195"
               target="__blank"
               aria-label="Facebook"
             >
@@ -111,7 +47,8 @@ const Footer = () => {
             </a>
             <a
               className={classes.footer__rightLink}
-              href="https://www.instagram.com"
+              rel="noopener noreferrer"
+              href="https://www.instagram.com/sim79972?igsh=MTJ4MTBkbHpkcmQ1Yg%3D%3D&utm_source=qr "
               target="__blank"
               aria-label="Instagram"
             >
@@ -119,7 +56,7 @@ const Footer = () => {
             </a>
             <a
               className={classes.footer__rightLink}
-              href="whatsapp://send?text=order-from-website&phone=+201099383905"
+              href="whatsapp://send?text=order-from-website&phone=+966539941921"
             >
               <FaWhatsapp />
             </a>

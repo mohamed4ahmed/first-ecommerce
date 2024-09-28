@@ -87,9 +87,9 @@ const ProductsList = ({ products }) => {
                               <p className={classes.title}>
                                 {productCategory.title}
                               </p>
-                              <p className={classes.price}>
-                                {productCategory.price}.LE
-                              </p>
+                              {/* <p className={classes.price}>
+                                {productCategory.price} $
+                              </p> */}
                               <Link
                                 to={"/products/" + productCategory.slug.current}
                               >

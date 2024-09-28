@@ -69,9 +69,9 @@ const HeroPage = ({ slides, idScrollTo }) => {
               </div>
               <div className={classes.content}>
                 <Typography variant="h2" className={classes.heading}>
-                Frist Ecommerce For ...
+                Smart Integrated Machinery
                 </Typography>
-                <Typography variant="h4">Frist Ecommerce</Typography>
+                <Typography variant="h4">SIMKSA</Typography>
               </div>
             </div>
           </Container>

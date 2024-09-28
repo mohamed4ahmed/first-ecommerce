@@ -44,7 +44,7 @@ const Navbar = () => {
                 >
                   <li className={classes.nav__item}>
                     <NavLink to="/" className={classes.nav__link}>
-                      الصفحة الرئيسية
+                      HomePage
                     </NavLink>
                   </li>
                   <li className={classes.nav__item}>
@@ -53,7 +53,7 @@ const Navbar = () => {
                       className={classes.nav__link}
                       activeClassName={classes.activeClass}
                     >
-                      المنتجات
+                      Products
                     </NavLink>
                   </li>
                   <li className={classes.nav__item}>
@@ -62,7 +62,7 @@ const Navbar = () => {
                       className={classes.nav__link}
                       activeClassName={classes.activeClass}
                     >
-                      أخبار
+                      Blog
                     </NavLink>
                   </li>
                   <li className={classes.nav__item}>
@@ -71,7 +71,7 @@ const Navbar = () => {
                       className={classes.nav__link}
                       activeClassName={classes.activeClass}
                     >
-                      تسوق
+                      Contact
                     </NavLink>
                   </li>
                   <li className={classes.nav__item}>
@@ -80,7 +80,7 @@ const Navbar = () => {
                       className={classes.nav__link}
                       activeClassName={classes.activeClass}
                     >
-                      أعضاء
+                      Member
                     </NavLink>
                   </li>
                   <li className={classes.nav__item}>
@@ -89,7 +89,7 @@ const Navbar = () => {
                       className={classes.nav__link}
                       activeClassName={classes.activeClass}
                     >
-                      معلومات عنا
+                     About Us
                     </NavLink>
                   </li>
                 </ul>

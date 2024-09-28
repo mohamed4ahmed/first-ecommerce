@@ -59,7 +59,7 @@ const Products = (listProducts) => {
                 </div>
                 <div className={classes.content}>
                   <p className={classes.title}>{product.title}</p>
-                  <p className={classes.price}>{product.price}.LE</p>
+                  {/* <p className={classes.price}>{product.price} $</p> */}
                   <Link to={"/products/" + product.slug.current}>
                     <Button
                       variant="contained"

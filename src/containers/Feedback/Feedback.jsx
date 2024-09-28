@@ -25,33 +25,33 @@ import { Link } from "react-router-dom";
 import { SpinnerBook } from "../../components";
 
 const labels = {
-  1: "ما الذي تشعر أنه بحاجة إلى التغيير؟",
-  2: "ما الذي تشعر أنه بحاجة إلى التغيير؟",
-  3: "ما الذي تشعر أنه بحاجة إلى التغيير؟",
-  4: "ما الذي تشعر أنه ليس جيدًا؟",
-  5: "باهر",
+  1: "What do you feel needs to change?",
+  2: "What do you feel needs to change?",
+  3: "What do you feel needs to change?",
+  4: "What do you feel is not good?",
+  5: "Wow",
 };
 
 const categoryLabels = [
   {
     id: "",
-    name: "اختر تصنيف",
+    name: "Choose a category",
   },
   {
     id: "product",
-    name: "المنتج",
+    name: "product",
   },
   {
     id: "material",
-    name: "الخامه",
+    name: "material",
   },
   {
     id: "ShippingSpeed",
-    name: "سرعه الشحن",
+    name: "Shipping speed",
   },
   {
     id: "price",
-    name: "السعر",
+    name: "price",
   },
 ];
 
@@ -136,13 +136,13 @@ const FeedbackContainer = () => {
                 variant="h4"
                 className={`${classes.headerText} ${classes.headerTextModal}`}
               >
-                First Ecommerce
+                Simksa
               </Typography>
-              <p className={classes.description}>شكرا لك على التعليق</p>
+              <p className={classes.description}>Thank you for commenting</p>
               <div className={classes.buttonGroup}>
                 <Link to="/">
                   <Button variant="contained" className={classes.button}>
-                    اذهب إلى الصفحة الرئيسية
+                  Go to the HomePage
                   </Button>
                 </Link>
                 <Button
@@ -150,7 +150,7 @@ const FeedbackContainer = () => {
                   className={`${classes.button} ${classes.secondButtonModal}`}
                   onClick={handleFeedbackContinueButton}
                 >
-                  أكتب تعليق أخر
+                  Write another comment
                 </Button>
               </div>
             </Container>
@@ -160,11 +160,11 @@ const FeedbackContainer = () => {
               <div className={classes.column}>
                 <div className={classes.textWrapper}>
                   <Typography variant="h4" className={classes.headerText}>
-                    تقييم
+                  Evaluation
                   </Typography>
                   <p className={classes.description}>
-                    كل تعليق من تعليقاتك سيساعد في تحسين خدمة First Ecommerce
-                    أكثر كل يوم
+                  Each of your comments will help Simksa to improve service
+                  More every day
                   </p>
                   <ReactStars
                     count={5}
@@ -185,7 +185,7 @@ const FeedbackContainer = () => {
                     <p className={classes.label}>{labels[rating]}</p>
                   )}
                   <p id="category" className={classes.label}>
-                    قائمة التعليقات: (*)
+                  Comments list: (*)
                   </p>
                   <Select
                     labelId="demo-simple-select-helper-label"
@@ -202,7 +202,7 @@ const FeedbackContainer = () => {
                     ))}
                   </Select>
                   <p id="comment" className={classes.label}>
-                    مشاركة رأيك:
+                  Share your opinion:
                   </p>
                   <TextField
                     aria-label="minimum height"
@@ -220,11 +220,11 @@ const FeedbackContainer = () => {
                     onClick={handleSubmit}
                     disabled={category ? false : true}
                   >
-                    إرسال التعليقات
+                    Send comments
                   </Button>
                   {error && (
                     <p className={`${classes.label} ${classes.error}`}>
-                      خطأ: الرجاء إدخال النص : {error}
+                     Error: Please enter text: {error}
                     </p>
                   )}
                 </div>

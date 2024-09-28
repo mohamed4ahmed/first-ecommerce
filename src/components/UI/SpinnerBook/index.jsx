@@ -9,7 +9,7 @@ function n2A(n) {
 }
 
 const SpinnerBookLoading = styled.div`
-  background-color: rgba(79, 164, 221, 0.8);
+  background-color:rgb(218, 11, 11);
   width: 100vw;
   height: calc(100vh - 80px);
 `;

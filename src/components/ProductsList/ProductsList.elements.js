@@ -29,20 +29,20 @@ export const useStyles = makeStyles((theme) => ({
       position: "absolute",
       bottom: "-2px",
       width: "50%",
-      border: "2px solid rgba(79, 164, 221, 0.8)",
+      border: "2px solid rgb(218, 11, 11)",
     },
   },
   button: {
     borderRadius: "20px",
     fontSize: "20px",
-    background: "rgba(79, 164, 221, 0.8)",
+    background: "rgb(218, 11, 11)",
     color: "black",
     fontWeight: "bold",
     margin: "5px 0",
     transition: "all 0.3s ease-in-out",
 
     "&:hover": {
-      background: "rgba(79, 164, 221, 0.6)",
+      background: "rgb(218, 11, 9)",
       color: "white",
     },
 
@@ -110,7 +110,7 @@ export const useStyles = makeStyles((theme) => ({
     userSelect: "none",
 
     "&:hover": {
-      color: "rgba(79, 164, 221, 0.6)",
+      color: "rgb(218, 11, 9)",
     },
 
     [theme.breakpoints.down("md")]: {
@@ -119,7 +119,7 @@ export const useStyles = makeStyles((theme) => ({
   },
   products: {
     width: "80%",
-    borderLeft: "2px solid rgba(79, 164, 221, 0.6)",
+    borderLeft: "2px solid rgb(218, 11, 9)",
     paddingLeft: "15px",
 
     [theme.breakpoints.down("md")]: {
@@ -254,7 +254,7 @@ export const useStyles = makeStyles((theme) => ({
   price: {
     margin: "10px 0",
     fontSize: "32px",
-    color: "rgba(79, 164, 221, 0.8)",
+    color: "rgb(218, 11, 11)",
     overflow: "hidden",
     display: "block",
 

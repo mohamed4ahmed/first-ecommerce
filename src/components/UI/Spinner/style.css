@@ -10,7 +10,8 @@
   align-items: center;
   -webkit-box-pack: center;
   justify-content: center;
-  background: rgba(79, 164, 221, 0.8);
+  /* background: rgba(79, 164, 221, 0.8); */
+  background: rgb(96, 94, 94);
 }
 
 /**

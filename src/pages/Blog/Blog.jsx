@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import BlogContainer from "../../containers/Blog/Blog";
 const Blog = () => {
   useEffect(() => {
-    document.title = "Blog - ecommerce-one For Clothes";
+    document.title = "Blog - Smart Integrated Machinery";
   }, []);
 
   return (

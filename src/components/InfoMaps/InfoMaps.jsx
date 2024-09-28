@@ -16,30 +16,30 @@ const InfoMaps = () => {
           <div className={classes.infoColumn}>
             <div className={classes.textWrapper}>
               <Typography variant="h4" className={classes.text}>
-                STORE
+                CONTACT
               </Typography>
               <div>
                 <Typography variant="h6" className={classes.subTitle}>
-                  Address: Name OF ST, Elmahala-Elkoubra, Gharbia, Egypt
+                  Address: Riyadh, SA
                 </Typography>
 
                 <Typography variant="h6" className={classes.subTitle}>
                   Phone number service:{" "}
-                  <a href="tel:+201099383905">
-                    <FaPhone /> +201099383905
+                  <a href="tel:+966539941921">
+                    <FaPhone /> +966539941921
                   </a>
                 </Typography>
 
                 <Typography variant="h6" className={classes.subTitle}>
                   Email:{" "}
-                  <a href="mailto:mohamed.ahmed8412000@gmail.com">
-                    <MdEmail /> mohamed.ahmed8412000@gmail.com
+                  <a href="mailto:a.hassan@simksa.com">
+                    <MdEmail /> a.hassan@simksa.com
                   </a>
                 </Typography>
 
                 <Typography variant="h6" className={classes.subTitle}>
                   WhatsApp:{" "}
-                  <a href="whatsapp://send?text=test&phone=+201099383905">
+                  <a href="whatsapp://send?text=test&phone=+966539941921">
                     <FaWhatsapp /> WhatsApp{" "}
                   </a>
                 </Typography>
@@ -47,8 +47,7 @@ const InfoMaps = () => {
                 <Typography variant="h6" className={classes.subTitle}>
                   Messenger:{" "}
                   <a
-                    // href="https://www.messenger.com/t/110829101400998/?messaging_source%3Apages%message_shortlink"
-                    href="https://www.messenger.com"
+                    href="https://www.messenger.com/t/61566517260195/?messaging_source%3Apages%message_shortlink"
                     target="__blank"
                     aria-label="Messenger"
                     rel="noreferrer"
@@ -58,7 +57,7 @@ const InfoMaps = () => {
                 </Typography>
               </div>
               <a
-                href="https://www.google.com/maps"
+                href="https://www.google.com/maps/@24.6375302,46.8389709,12z?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
               >

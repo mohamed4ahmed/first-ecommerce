@@ -98,7 +98,6 @@ export const fetchProduct = async () => {
 			special,
 			new,
 			bestSeller,
-			price,
 			body,
 			mainImage{
 				asset->{
@@ -198,7 +197,6 @@ export const fetchSingleProduct = async (slug) => {
 				special,
 				new,
 				bestSeller,
-				price
 			}`
     )
     .then((data) => {

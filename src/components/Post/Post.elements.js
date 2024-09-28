@@ -11,14 +11,14 @@ export const useStyles = makeStyles((theme) => ({
   button: {
     borderRadius: "20px",
     fontSize: "20px",
-    background: "rgba(79, 164, 221, 0.8)",
+    background: "rgb(218, 11, 11)",
     color: "black",
     fontWeight: "bold",
     margin: "5px 0",
     transition: "all 0.3s ease-in-out",
 
     "&:hover": {
-      background: "rgba(79, 164, 221, 0.7)",
+      background: "rgb(218, 11, 10)",
       color: "white",
     },
 
@@ -77,7 +77,7 @@ export const useStyles = makeStyles((theme) => ({
 
   postImg: {
     backgroundSize: "cover",
-    background: "#c5d2d9 no-repeat 50%",
+    background: "#da0b0b no-repeat 50%",
     position: "absolute",
     top: 0,
     left: 0,

@@ -8,10 +8,10 @@ import {
 } from "react-leaflet";
 import "./Maps.css";
 import "leaflet/dist/leaflet.css";
-import { iconFirstEcommerce } from "./IconMarker";
+import { iconSimksa } from "./IconMarker";
 import logoImg from "../../../assets/img/logo-web-black.png";
 const Map = () => {
-  const position = [30.9661, 31.16138];
+  const position = [24.671036, 46.837574];
   const zoom = 14;
   return (
     <div className="map">
@@ -20,19 +20,19 @@ const Map = () => {
           attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        <Marker position={position} icon={iconFirstEcommerce}>
+        <Marker position={position} icon={iconSimksa}>
           <Popup>
             <div className="info-container">
               <div className="info__logo">
                 <img src={logoImg} alt="logo" />
               </div>
-              <div className="info__name">First Ecommerce For ...</div>
+              <div className="info__name">Simksa</div>
               <div className="info__address">
-                Address: Name of ST, Elmahala-Elkoubra, Gharbia, Egypt
+                Address: Riyadh,SA
               </div>
             </div>
           </Popup>
-          <Tooltip>First Ecommerce</Tooltip>
+          <Tooltip>SIMKSA</Tooltip>
         </Marker>
       </LeafletMap>
     </div>

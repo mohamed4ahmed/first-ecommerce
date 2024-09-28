@@ -104,15 +104,14 @@ const Membership = () => {
                 variant="h4"
                 className={`${classes.headerText} ${classes.headerTextModal}`}
               >
-                صــفـقـة
+                Simksa
               </Typography>
               <p className={classes.description}>
-                تم تسجيل طلبك بنجاح. سوف يتم التواصل معك في اقرب وقت .شكرا لك
-              </p>
+              Your request has been registered successfully. We will contact you as soon as possible. Thank you              </p>
               <div className={classes.buttonGroup}>
                 <Link to="/">
                   <Button variant="contained" className={classes.button}>
-                    اذهب إلى الصفحة الرئيسية
+                  Go to the HomePage
                   </Button>
                 </Link>
                 <Button
@@ -120,7 +119,7 @@ const Membership = () => {
                   className={`${classes.button} ${classes.secondButtonModal}`}
                   onClick={handleFeedbackContinueButton}
                 >
-                  استمر في التسجيل
+                  Continue registering
                 </Button>
               </div>
             </Container>
@@ -130,13 +129,12 @@ const Membership = () => {
               <div className={classes.column}>
                 <div className={classes.textWrapper}>
                   <Typography variant="h4" className={classes.headerText}>
-                    طلبك
+                  Your order
                   </Typography>
                   <p className={classes.description}>
-                    يرجى مشاركة المعلومات مع صــفـقـة ، للحصول علي خصم 30%.
-                  </p>
+                  Please share the information with Deal, to get a 30% discount.                  </p>
                   <p id="category" className={classes.label}>
-                    : الاسم (*)
+                     Name : (*)
                   </p>
                   <TextField
                     id="outlined-basic1"
@@ -145,7 +143,7 @@ const Membership = () => {
                     onChange={(event) => setName(event.target.value)}
                   />
                   <p id="category" className={classes.label}>
-                    : تاريخ استلام طلبك (*)
+                   The date your request was received :(*)
                   </p>
                   <TextField
                     id="outlined-basic2"
@@ -156,7 +154,7 @@ const Membership = () => {
                   />
 
                   <p id="category" className={classes.label}>
-                    : بريد الالكتروني (*)
+                    Email : (*)
                   </p>
                   <TextField
                     id="outlined-basic3"
@@ -166,7 +164,7 @@ const Membership = () => {
                     onChange={(event) => setEmail(event.target.value)}
                   />
                   <p id="category" className={classes.label}>
-                    : رقم التليفون(*)
+                    Phone number : (*)
                   </p>
                   <TextField
                     id="outlined-basic4"
@@ -180,11 +178,11 @@ const Membership = () => {
                     onClick={handleSubmit}
                     disabled={disabledButton ? true : false}
                   >
-                    تأكيد الطلب
+                    Confirm order
                   </Button>
                   {error && (
                     <p className={`${classes.label} ${classes.error}`}>
-                      خطأ: الرجاء إدخال النص في:{error}
+                      Error: Please enter text in: {error}
                     </p>
                   )}
                 </div>

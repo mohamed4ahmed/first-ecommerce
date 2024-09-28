@@ -1,7 +1,7 @@
 import L from "leaflet";
 import iconUrl from "../../../assets/img/logo-web-white.png";
 
-const iconFirstEcommerce = new L.Icon({
+const iconSimksa = new L.Icon({
   iconUrl: iconUrl,
   iconSize: [75, 75],
   iconAnchor: [75, 75],
@@ -10,4 +10,4 @@ const iconFirstEcommerce = new L.Icon({
   shadowAnchor: null,
 });
 
-export { iconFirstEcommerce };
+export { iconSimksa };

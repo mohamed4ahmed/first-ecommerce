@@ -5,7 +5,7 @@ import { online } from "../../data";
 const Stores = () => {
   const [spinner, setSpinner] = useState(true);
   useEffect(() => {
-    document.title = "Store - ecommerce-one For Clothes";
+    document.title = "Contact - Smart Integrated Machinery";
   }, []);
 
   useEffect(() => {

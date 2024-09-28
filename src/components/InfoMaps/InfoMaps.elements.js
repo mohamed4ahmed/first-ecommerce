@@ -56,7 +56,7 @@ export const useStyles = makeStyles((theme) => ({
     },
   },
   text: {
-    color: "rgba(79, 164, 221, 0.8)",
+    color: "rgb(218, 11, 11)",
     fontWeight: 600,
     position: "relative",
     "&::before": {
@@ -64,7 +64,7 @@ export const useStyles = makeStyles((theme) => ({
       position: "absolute",
       bottom: "-10px",
       width: "150px",
-      border: "2px solid rgba(79, 164, 221, 0.8)",
+      border: "2px solid rgb(218, 11, 11)",
     },
   },
   subTitle: {
@@ -74,20 +74,20 @@ export const useStyles = makeStyles((theme) => ({
       padding: "5px 0",
     },
     "& a": {
-      color: "rgba(79, 164, 221, 0.8)",
+      color: "rgb(218, 11, 11)",
       cursor: "pointer",
     },
   },
   button: {
     borderRadius: "20px",
     fontSize: "20px",
-    background: "rgba(79, 164, 221, 0.7)",
+    background: "rgb(218, 11, 10)",
     color: "black",
     fontWeight: "bold",
     transition: "all 0.3s ease-in-out",
 
     "&:hover": {
-      background: "rgba(79, 164, 221, 0.6)",
+      background: "rgb(218, 11, 9)",
       color: "white",
     },
 

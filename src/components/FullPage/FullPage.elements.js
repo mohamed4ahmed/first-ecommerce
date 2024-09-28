@@ -5,7 +5,7 @@ export const useStyles = makeStyles((theme) => ({
 		height: "calc(100vh - 80px)",
 		position: "relative",
 		overflow: "hidden",
-		backgroundColor: "#cab9a9",
+		backgroundColor: "#da0b0b",
 
 		[theme.breakpoints.down("md")]: {
 			height: "calc(100vh - 80px - 60px)",
@@ -79,12 +79,12 @@ export const useStyles = makeStyles((theme) => ({
 		fontWeight: "700",
 		textTransform: "uppercase",
 		fontFamily: '"BebasNeue","Lato", san-serif',
-		color: "rgba(79, 164, 221, 0.8)",
+		color: "rgb(218, 11, 11)",
 	},
 	heroContentSubTitle: {
 		fontSize: "32px",  //"56px"
 		textShadow: "-2px 2px rgba(0,0,0,0.7)",
-		color: "rgba(79, 164, 221, 0.8)",
+		color: "rgb(218, 11, 11)",
 		textTransform: "uppercase",
 		fontFamily: '"BebasNeue","Lato", san-serif',
 		letterSpacing: "10px",
@@ -128,7 +128,7 @@ export const useStyles = makeStyles((theme) => ({
 		justifyContent: "center",
 
 		"&:hover": {
-			background: "rgba(79, 164, 221, 0.8)",
+			background: "rgb(218, 11, 11)",
 			transform: "scale(1.05)",
 		},
 		"& svg": {
@@ -142,7 +142,7 @@ export const useStyles = makeStyles((theme) => ({
 		display: "flex",
 		justifyContent: "center",
 		alignItems: "center",
-		backgroundColor: "#cab9a9",
+		backgroundColor: "#da0b0b",
 
 		[theme.breakpoints.down("md")]: {},
 	},

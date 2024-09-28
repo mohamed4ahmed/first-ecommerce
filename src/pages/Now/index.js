@@ -3,9 +3,9 @@ import { InfoMaps, Section } from "../../components";
 import { online } from "../../data";
 const Now = () => {
   useEffect(() => {
-    document.title = "Our Stores - ecommerce-one For Clothes";
+    document.title = "Contact - Smart Integrated Machinery";
 
-    window.location = <a href="tel:+201099383905">201099383905 </a>; //Link
+    window.location = <a href="tel:+966539941921">+966539941921 </a>; //Link
   }, []);
   return (
     <>

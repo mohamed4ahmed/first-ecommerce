@@ -2,7 +2,7 @@
 // import OrderContainer from "../../containers/Order/Order";
 // const Order = () => {
 //   useEffect(() => {
-// document.title = "Order - ecommerce-one For Clothes";
+// document.title = "Order - Simksa";
 
 //   }, []);
 //   return <OrderContainer />;

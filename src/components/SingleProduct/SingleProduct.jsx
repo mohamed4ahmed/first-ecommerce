@@ -43,7 +43,7 @@ const SingleProduct = ({ product, special }) => {
                     <Typography variant="h4" className={classes.headerText}>
                       {product.title}
                     </Typography>
-                    <p className={classes.price}>{product.price}.LE</p>
+                    <p className={classes.price}>{product.price} $</p>
                     <Link to="/membership/">
                       <Button
                         variant="contained"
@@ -54,20 +54,20 @@ const SingleProduct = ({ product, special }) => {
                     </Link>
                     <p className={classes.phone}>
                       {" "}
-                      Call for delivery:{" "}
-                      <a href="tel:+201099383905">01099383905</a>
+                      Call for order:{" "}
+                      <a href="tel:+966539941921">+966539941921</a>
                     </p>
                     <p className={classes.phone}>
                       {" "}
                       Order By WhatsApp:{" "}
                       <a
-                        href="whatsapp://send?text=order-from-website&phone=+201099383905"
+                        href="whatsapp://send?text=order-from-website&phone=+966539941921"
                         className={classes.whatsappicon}
                       >
                         <FaWhatsapp />
                       </a>
                       <a
-                        href="whatsapp://send?text=order-from-website&phone=+201099383905"
+                        href="whatsapp://send?text=order-from-website&phone=+966539941921"
                         className={classes.whatsappicon}
                       >
                         <FaWhatsapp />
@@ -77,8 +77,7 @@ const SingleProduct = ({ product, special }) => {
                       {" "}
                       Order By Messenger:{" "}
                       <a
-                        // href="https://www.messenger.com/t/110829101400998/?messaging_source%3Apages%message_shortlink"
-                        href="https://www.messenger.com"
+                        href="https://www.messenger.com/t/61566517260195/?messaging_source%3Apages%message_shortlink"
                         className={classes.whatsappicon}
                         target="__blank"
                         aria-label="Messenger"
@@ -135,7 +134,7 @@ const SingleProduct = ({ product, special }) => {
                       </div>
                       <div className={classes.contentProduct}>
                         <p className={classes.title}>{product.title}</p>
-                        <p className={classes.price}>{product.price}.LE</p>
+                        {/* <p className={classes.price}>{product.price} $</p> */}
                         <Link to={"/products/" + product.slug.current}>
                           <Button
                             variant="contained"

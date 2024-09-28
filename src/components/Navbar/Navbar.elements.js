@@ -85,7 +85,7 @@ export const useStyles = makeStyles((theme) => ({
     borderBottom: "5px solid transparent",
 
     "&:hover": {
-      borderBottom: "5px solid #4b59f7",
+      borderBottom: "5px solid #da0b0b",
     },
     [theme.breakpoints.down("md")]: {
       width: "100%",
@@ -112,14 +112,14 @@ export const useStyles = makeStyles((theme) => ({
       display: "table",
 
       "&:hover": {
-        color: "#4b59f7",
+        color: "#da0b0b",
         transition: "all 0.3s ease",
       },
     },
   },
 
   activeClass: {
-    borderBottom: "5px solid #4b59f7",
+    borderBottom: "5px solid #da0b0b",
     [theme.breakpoints.down("md")]: {
       borderBottom: "none",
       fontSize: "25px",

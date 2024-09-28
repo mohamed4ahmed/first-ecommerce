@@ -3,16 +3,16 @@ import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import { fetchProduct, fetchSingleProduct } from "../../api";
 import {
-  OneCategory,
-  TwoCategory,
-  ThreeCategory,
-  FourCategory,
-  FiveCategory,
-  SixCategory,
-  SevenCategory,
-  EightCategory,
-  NineCategory,
-  TenCategory,
+  FiberLaser,
+  PressBrakes,
+  Automation,
+  // FourCategory,
+  // FiveCategory,
+  // SixCategory,
+  // SevenCategory,
+  // EightCategory,
+  // NineCategory,
+  // TenCategory,
 } from "../../app/ItemTypes";
 import { setProductsList, setProductSpecial } from "../../app/slice/fetchApi";
 import { SingleProduct, SpinnerBook } from "../../components";
@@ -32,37 +32,37 @@ const SingleProductContainer = () => {
         .then((products) => {
           const special = [];
 
-          const oneCategory = [];
-          const twoCategory = [];
-          const threeCategory = [];
-          const fourCategory = [];
-          const fiveCategory = [];
-          const sixCategory = [];
-          const sevenCategory = [];
-          const eightCategory = [];
-          const nineCategory = [];
-          const tenCategory = [];
+          const fiberLaser = [];
+          const pressBrakes = [];
+          const automation = [];
+          // const fourCategory = [];
+          // const fiveCategory = [];
+          // const sixCategory = [];
+          // const sevenCategory = [];
+          // const eightCategory = [];
+          // const nineCategory = [];
+          // const tenCategory = [];
 
           products.map((product, index) => {
-            if (product.projectType === OneCategory) oneCategory.push(product);
-            else if (product.projectType === TwoCategory)
-              twoCategory.push(product);
-            else if (product.projectType === ThreeCategory)
-              threeCategory.push(product);
-            else if (product.projectType === FourCategory)
-              fourCategory.push(product);
-            else if (product.projectType === FiveCategory)
-              fiveCategory.push(product);
-            else if (product.projectType === SixCategory)
-              sixCategory.push(product);
-            else if (product.projectType === SevenCategory)
-              sevenCategory.push(product);
-            else if (product.projectType === EightCategory)
-              eightCategory.push(product);
-            else if (product.projectType === NineCategory)
-              nineCategory.push(product);
-            else if (product.projectType === TenCategory)
-              tenCategory.push(product);
+            if (product.projectType === FiberLaser) fiberLaser.push(product);
+            else if (product.projectType === PressBrakes)
+              pressBrakes.push(product);
+            else if (product.projectType === Automation)
+              automation.push(product);
+            // else if (product.projectType === FourCategory)
+            //   fourCategory.push(product);
+            // else if (product.projectType === FiveCategory)
+            //   fiveCategory.push(product);
+            // else if (product.projectType === SixCategory)
+            //   sixCategory.push(product);
+            // else if (product.projectType === SevenCategory)
+            //   sevenCategory.push(product);
+            // else if (product.projectType === EightCategory)
+            //   eightCategory.push(product);
+            // else if (product.projectType === NineCategory)
+            //   nineCategory.push(product);
+            // else if (product.projectType === TenCategory)
+            //   tenCategory.push(product);
 
             product.special && special.push(product);
 
@@ -71,16 +71,16 @@ const SingleProductContainer = () => {
           let action;
           const object = {
             special: special,
-            oneCategory: oneCategory,
-            twoCategory: twoCategory,
-            threeCategory: threeCategory,
-            fourCategory: fourCategory,
-            fiveCategory: fiveCategory,
-            sixCategory: sixCategory,
-            sevenCategory: sevenCategory,
-            eightCategory: eightCategory,
-            nineCategory: nineCategory,
-            tenCategory: tenCategory,
+            fiberLaser: fiberLaser,
+            pressBrakes: pressBrakes,
+            automation: automation,
+            // fourCategory: fourCategory,
+            // fiveCategory: fiveCategory,
+            // sixCategory: sixCategory,
+            // sevenCategory: sevenCategory,
+            // eightCategory: eightCategory,
+            // nineCategory: nineCategory,
+            // tenCategory: tenCategory,
           };
           action = setProductsList(object);
           dispatch(action);

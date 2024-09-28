@@ -21,7 +21,7 @@ const AboutContainer = () => {
   }, []);
 
   useEffect(() => {
-    fetchSinglePost("safka")
+    fetchSinglePost("simksa")
       .then((data) => {
         setSinglePost(data[0]);
       })
