@@ -1,11 +1,14 @@
 import React, { useEffect } from "react";
 import { InfoMaps, Section } from "../../components";
 import { online } from "../../data";
+
+
 const Grab = () => {
   useEffect(() => {
     document.title = "Contact - Smart Integrated Machinery";
 
-    window.location = <a href="tel:+966539941921">+966539941921 </a>; //Link
+    // window.location = <a href="tel:+966539941921">+966539941921 </a>; //Link
+
   }, []);
   return (
     <>

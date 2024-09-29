@@ -1,5 +1,5 @@
 import React from "react";
-
+import {Link} from "react-router-dom";
 import {
   CircularProgress,
   Container,
@@ -8,10 +8,8 @@ import {
 } from "@material-ui/core";
 import { useStyles } from "./Section.elements";
 import { FiShoppingCart } from "react-icons/fi";
-
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
-
 import bgDark from "../../assets/img/bg_blog_home.webp";
 import bgWhite from "../../assets/img/bg-white.webp";
 
@@ -58,9 +56,9 @@ const Section = ({ subHeader, header, description, linkBtn, img, dark }) => {
                   </Typography>
                 </div>
                 <p className={classes.description}>{description}</p>
-                <a
-                  href={linkBtn}
-                  target="_blank"
+                <Link
+                  to={linkBtn}
+                  // target="_blank"
                   rel="noopener noreferrer"
                   className={classes.linkBtn}
                 >
@@ -70,7 +68,7 @@ const Section = ({ subHeader, header, description, linkBtn, img, dark }) => {
                     </span>
                     Order Now
                   </Button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

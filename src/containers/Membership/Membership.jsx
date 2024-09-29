@@ -107,7 +107,7 @@ const Membership = () => {
                 Simksa
               </Typography>
               <p className={classes.description}>
-              Your request has been registered successfully. We will contact you as soon as possible. Thank you              </p>
+              Your request has been send successfully. We will contact you as soon as possible. Thank you              </p>
               <div className={classes.buttonGroup}>
                 <Link to="/">
                   <Button variant="contained" className={classes.button}>
@@ -119,7 +119,7 @@ const Membership = () => {
                   className={`${classes.button} ${classes.secondButtonModal}`}
                   onClick={handleFeedbackContinueButton}
                 >
-                  Continue registering
+                  Continue requesting
                 </Button>
               </div>
             </Container>
@@ -132,7 +132,7 @@ const Membership = () => {
                   Your order
                   </Typography>
                   <p className={classes.description}>
-                  Please share the information with Deal, to get a 30% discount.                  </p>
+                  Please share the information with Simksa</p>
                   <p id="category" className={classes.label}>
                      Name : (*)
                   </p>
@@ -178,7 +178,7 @@ const Membership = () => {
                     onClick={handleSubmit}
                     disabled={disabledButton ? true : false}
                   >
-                    Confirm order
+                    Confirm request
                   </Button>
                   {error && (
                     <p className={`${classes.label} ${classes.error}`}>

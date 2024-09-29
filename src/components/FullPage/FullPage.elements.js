@@ -79,12 +79,12 @@ export const useStyles = makeStyles((theme) => ({
 		fontWeight: "700",
 		textTransform: "uppercase",
 		fontFamily: '"BebasNeue","Lato", san-serif',
-		color: "rgb(218, 11, 11)",
+		color: "rgb(230, 221, 221))",
 	},
 	heroContentSubTitle: {
 		fontSize: "32px",  //"56px"
 		textShadow: "-2px 2px rgba(0,0,0,0.7)",
-		color: "rgb(218, 11, 11)",
+		color: "rgb(230, 221, 221))",
 		textTransform: "uppercase",
 		fontFamily: '"BebasNeue","Lato", san-serif',
 		letterSpacing: "10px",

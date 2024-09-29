@@ -55,7 +55,7 @@ export const online = [
     header: "Order Now",
     description:
       "Order your machine online and Simksa services bring it to you with fast delivery to your location ",
-    linkBtn: "tel:+966539941921", //URL Link
+    linkBtn: "/membership", //URL Link
     img: grabImg,
   },
   {
@@ -63,7 +63,7 @@ export const online = [
     header: "Order Now",
     description:
       "Order your machine online and Simksa services bring it to you with fast delivery to your location",
-    linkBtn: "tel:+966539941921", //href Link
+    linkBtn: "/membership", //href Link
     img: nowImg,
   },
   {
@@ -71,7 +71,7 @@ export const online = [
     header: "Order Now",
     description:
       "Order your machine online and Simksa services bring it to you with fast delivery to your location ",
-    linkBtn: "tel:+966539941921", //URL Link
+    linkBtn: "/membership", //URL Link
     img: loshipImg,
   },
 ];
