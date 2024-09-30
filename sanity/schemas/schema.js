@@ -10,7 +10,7 @@ import post from "./post";
 import about from "./about";
 import author from "./author";
 import product from "./product";
-import insta from "./insta";
+// import insta from "./insta";
 import hero from "./hero";
 import heroProduct from "./heroProduct";
 import heroBlog from "./heroBlog";
@@ -30,7 +30,7 @@ export default createSchema({
     author,
     about,
     product,
-    insta,
+    // insta,
     hero,
     heroProduct,
     heroBlog,

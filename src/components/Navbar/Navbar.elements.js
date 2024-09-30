@@ -2,7 +2,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 export const useStyles = makeStyles((theme) => ({
   nav: {
-    background: "#191919",
+    background: "#191919",   
     height: "100px",
   },
 
@@ -17,19 +17,17 @@ export const useStyles = makeStyles((theme) => ({
   },
 
   nav__logo: {
-    height: "80px",
+    height: "100px",
     color: "#fff",
     textDecoration: "none",
     fontSize: "20px",
-
     display: "flex",
     justifySelf: "flex-start",
     alignItems: "center",
-
     border: "none",
     outline: "none",
-
     cursor: "pointer",
+    
   },
 
   nav__logoImg: {
@@ -102,7 +100,7 @@ export const useStyles = makeStyles((theme) => ({
     textDecoration: "none",
     textTransform: "uppercase",
 
-    color: "#fff",
+    color: "#191919",
     padding: "5px 10px",
 
     display: "flex",
