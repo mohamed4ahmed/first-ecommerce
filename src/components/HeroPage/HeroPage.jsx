@@ -71,7 +71,7 @@ const HeroPage = ({ slides, idScrollTo }) => {
                 <Typography variant="h2" className={classes.heading}>
                 Smart Integrated Machinery
                 </Typography>
-                <Typography variant="h4">SIMKSA</Typography>
+                <Typography variant="h4">SIM Company</Typography>
               </div>
             </div>
           </Container>

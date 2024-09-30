@@ -26,13 +26,13 @@ const Map = () => {
               <div className="info__logo">
                 <img src={logoImg} alt="logo" />
               </div>
-              <div className="info__name">Simksa</div>
+              <div className="info__name">SIM Company</div>
               <div className="info__address">
                 Address: Riyadh,SA
               </div>
             </div>
           </Popup>
-          <Tooltip>SIMKSA</Tooltip>
+          <Tooltip>SIM Company</Tooltip>
         </Marker>
       </LeafletMap>
     </div>

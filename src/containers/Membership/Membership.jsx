@@ -111,7 +111,7 @@ const Membership = () => {
                 variant="h4"
                 className={`${classes.headerText} ${classes.headerTextModal}`}
               >
-                Simksa
+                SIM Company
               </Typography>
               <p className={classes.description}>
               Your request has been send successfully. We will contact you as soon as possible. Thank you </p>
@@ -139,7 +139,7 @@ const Membership = () => {
                   Your Request
                   </Typography>
                   <p className={classes.description}>
-                  Please share the information with Simksa</p>
+                  Please share the information with SIM Company</p>
                   <p id="category" className={classes.label}>
                      Name : (*)
                   </p>

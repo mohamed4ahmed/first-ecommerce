@@ -51,26 +51,26 @@ export const products = [
 
 export const online = [
   {
-    subHeader: "Simksa",
+    subHeader: "SIM Company",
     header: "Order Now",
     description:
-      "Order your machine online and Simksa services bring it to you with fast delivery to your location ",
+      "Order your machine online and SIM Company services bring it to you with fast delivery to your location ",
     linkBtn: "/membership", //URL Link
     img: grabImg,
   },
   {
-    subHeader: "Simksa",
+    subHeader: "SIM Company",
     header: "Order Now",
     description:
-      "Order your machine online and Simksa services bring it to you with fast delivery to your location",
+      "Order your machine online and SIM Company services bring it to you with fast delivery to your location",
     linkBtn: "/membership", //href Link
     img: nowImg,
   },
   {
-    subHeader: "Simksa",
+    subHeader: "SIM Company",
     header: "Order Now",
     description:
-      "Order your machine online and Simksa services bring it to you with fast delivery to your location ",
+      "Order your machine online and SIM Company services bring it to you with fast delivery to your location ",
     linkBtn: "/membership", //URL Link
     img: loshipImg,
   },

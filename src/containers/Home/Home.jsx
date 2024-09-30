@@ -43,9 +43,9 @@ import feedbackImg from "../../assets/img/feedback.svg";
 import { AiOutlineStar } from "react-icons/ai";
 
 const feedback = {
-  subHeader: "Simksa",
+  subHeader: "SIM Company",
   header: "Smart Integrated Machinery",
-  description: "Each of your comments will help Simksa to improve service More every day",
+  description: "Each of your comments will help SIM Company to improve service More every day",
   linkBtn: "/feedback",
   contentBtn: "Evaluate",
   img: feedbackImg,

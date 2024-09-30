@@ -21,7 +21,7 @@ const Footer = () => {
           </NavLink>
           <div className={classes.footer__center}>
             <div className={classes.footer__centerText}>
-              SIMKSA @ 2025.
+            SIM Company @ 2025.
             </div>
             <div className={classes.footer__centerText}>
               Made with ♥ by:{" "}
