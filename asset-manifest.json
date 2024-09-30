@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/first-ecommerce/static/css/main.c264d7fa.css",
-    "main.js": "/first-ecommerce/static/js/main.19b1fc20.js",
+    "main.js": "/first-ecommerce/static/js/main.3e31dfe8.js",
     "static/js/159.b677fc4c.chunk.js": "/first-ecommerce/static/js/159.b677fc4c.chunk.js",
     "static/js/643.790345f0.chunk.js": "/first-ecommerce/static/js/643.790345f0.chunk.js",
     "static/js/96.ccc616ea.chunk.js": "/first-ecommerce/static/js/96.ccc616ea.chunk.js",
@@ -20,7 +20,7 @@
     "static/media/bg_blog_home.webp": "/first-ecommerce/static/media/bg_blog_home.9c9e01c84495c0766e86.webp",
     "static/media/now.png": "/first-ecommerce/static/media/now.a6cda44a1e3fe876813e.png",
     "static/media/logo-web-black.png": "/first-ecommerce/static/media/logo-web-black.ccffa9cace9c8fea6fd9.png",
-    "static/media/logoMain.png": "/first-ecommerce/static/media/logoMain.ccffa9cace9c8fea6fd9.png",
+    "static/media/logoMain.png": "/first-ecommerce/static/media/logoMain.169b59852735ff437cc8.png",
     "static/media/loship.png": "/first-ecommerce/static/media/loship.4551492e85be14fceba6.png",
     "static/media/grab.png": "/first-ecommerce/static/media/grab.0ae252094f7eb2890834.png",
     "static/media/bg-white.webp": "/first-ecommerce/static/media/bg-white.f71f431aeaab99b6b776.webp",
@@ -28,7 +28,7 @@
     "static/media/membership.svg": "/first-ecommerce/static/media/membership.4951a4410f507d7450cc006b0a3213a0.svg",
     "index.html": "/first-ecommerce/index.html",
     "main.c264d7fa.css.map": "/first-ecommerce/static/css/main.c264d7fa.css.map",
-    "main.19b1fc20.js.map": "/first-ecommerce/static/js/main.19b1fc20.js.map",
+    "main.3e31dfe8.js.map": "/first-ecommerce/static/js/main.3e31dfe8.js.map",
     "159.b677fc4c.chunk.js.map": "/first-ecommerce/static/js/159.b677fc4c.chunk.js.map",
     "643.790345f0.chunk.js.map": "/first-ecommerce/static/js/643.790345f0.chunk.js.map",
     "96.ccc616ea.chunk.js.map": "/first-ecommerce/static/js/96.ccc616ea.chunk.js.map",
@@ -47,6 +47,6 @@
   },
   "entrypoints": [
     "static/css/main.c264d7fa.css",
-    "static/js/main.19b1fc20.js"
+    "static/js/main.3e31dfe8.js"
   ]
 }
