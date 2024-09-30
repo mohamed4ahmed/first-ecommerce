@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunksimksa=self.webpackChunksimksa||[]).push([[466],{8466:(e,s,t)=>{t.r(s),t.d(s,{default:()=>c});var a=t(5043),n=t(1768),r=t(657),i=t(579);const c=()=>((0,a.useEffect)((()=>{document.title="Contact - Smart Integrated Machinery"}),[]),(0,i.jsxs)(i.Fragment,{children:[(0,i.jsx)(n.mr,{}),r.W.map(((e,s)=>(0,i.jsx)(n.wn,{subHeader:e.subHeader,header:e.header,description:e.description,linkBtn:e.linkBtn,img:e.img},s)))]}))}}]);
-//# sourceMappingURL=466.31c33e61.chunk.js.map
