@@ -4,7 +4,7 @@ import {
   HighlightPosts,
   InfoMaps,
   InfoSection,
-  InstaPosts,
+  // InstaPosts,
   Products,
   SectionLink,
   SpinnerBook,
@@ -12,7 +12,7 @@ import {
 import {
   setAboutData,
   setHero,
-  setInstaPosts,
+  // setInstaPosts,
   setPosts,
   setProductsList,
   setProductSpecial,
@@ -23,7 +23,7 @@ import {
   fetchAboutData,
   fetchBlogData,
   fetchHeroData,
-  fetchInstaPost,
+  // fetchInstaPost,
   fetchProduct,
 } from "../../api";
 import {
@@ -60,7 +60,7 @@ const Home = () => {
   const posts = useSelector((state) => state.api.posts);
   const hero = useSelector((state) => state.api.hero);
   const about = useSelector((state) => state.api.about);
-  const instaPosts = useSelector((state) => state.api.instaPosts);
+  // const instaPosts = useSelector((state) => state.api.instaPosts);
 
   useEffect(() => {
     document.title = "Homepage - Smart Integrated Machinery";
@@ -105,22 +105,22 @@ const Home = () => {
     }
   }, [dispatch, posts]);
 
-  useEffect(() => {
-    if (!instaPosts) {
-      fetchInstaPost()
-        .then((instaPosts) => {
-          let postsSort = [];
-          postsSort = instaPosts.slice().sort((value1, value2) => {
-            const dateValue1 = new Date(value1.publishedAt).getTime();
-            const dateValue2 = new Date(value2.publishedAt).getTime();
-            return dateValue1 < dateValue2 ? 1 : -1;
-          });
-          const action = setInstaPosts(postsSort);
-          dispatch(action);
-        })
-        .catch((error) => console.log("error", error));
-    }
-  }, [dispatch, instaPosts]);
+  // useEffect(() => {
+  //   if (!instaPosts) {
+  //     fetchInstaPost()
+  //       .then((instaPosts) => {
+  //         let postsSort = [];
+  //         postsSort = instaPosts.slice().sort((value1, value2) => {
+  //           const dateValue1 = new Date(value1.publishedAt).getTime();
+  //           const dateValue2 = new Date(value2.publishedAt).getTime();
+  //           return dateValue1 < dateValue2 ? 1 : -1;
+  //         });
+  //         const action = setInstaPosts(postsSort);
+  //         dispatch(action);
+  //       })
+  //       .catch((error) => console.log("error", error));
+  //   }
+  // }, [dispatch, instaPosts]);
 
   useEffect(() => {
     if (!special) {
@@ -212,9 +212,9 @@ const Home = () => {
           <LazyLoadComponent>
             <HighlightPosts />
           </LazyLoadComponent>
-          <LazyLoadComponent>
+          {/* <LazyLoadComponent>
             <InstaPosts />
-          </LazyLoadComponent>
+          </LazyLoadComponent> */}
           <LazyLoadComponent>
             <SectionLink
               subHeader={feedback.subHeader}

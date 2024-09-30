@@ -20,7 +20,7 @@ const fetchApi = createSlice({
     },
     productsList: null,
     posts: null,
-    instaPosts: null,
+    // instaPosts: null,
     hero: null,
     heroProduct: null,
     heroBlog: null,
@@ -32,9 +32,9 @@ const fetchApi = createSlice({
     setPosts: (state, action) => {
       state.posts = action.payload;
     },
-    setInstaPosts: (state, action) => {
-      state.instaPosts = action.payload;
-    },
+    // setInstaPosts: (state, action) => {
+    //   state.instaPosts = action.payload;
+    // },
     setHero: (state, action) => {
       state.hero = action.payload;
     },
@@ -89,7 +89,7 @@ const { reducer, actions } = fetchApi;
 export const {
   setAboutData,
   setPosts,
-  setInstaPosts,
+  // setInstaPosts,
   setHero,
   setProductSpecial,
   setProductFiberLaser,

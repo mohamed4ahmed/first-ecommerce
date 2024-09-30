@@ -149,15 +149,6 @@ const Membership = () => {
                     placeholder={name}
                     onChange={(event) => setName(event.target.value)}
                   />
-                  <p id="category" className={classes.label}>
-                   Your Message :(*)
-                  </p>
-                  <TextField
-                    id="outlined-basic2"
-                    variant="outlined"
-                    placeholder={message }
-                    onChange={(event) => setMessage (event.target.value)}
-                  />
 
                   <p id="category" className={classes.label}>
                     Email : (*)
@@ -190,6 +181,17 @@ const Membership = () => {
                     onChange={(event) => setCompanyName(event.target.value)}
                   />
 
+                  <p id="category" className={classes.label}>
+                   Your Message :(*)
+                  </p>
+                  <TextField
+                    id="outlined-basic2"
+                    variant="outlined"
+                    placeholder={message}
+                    multiline
+                    onChange={(event) => setMessage (event.target.value)}
+                  />
+                  
                   <Button
                     variant="contained"
                     className={classes.button}

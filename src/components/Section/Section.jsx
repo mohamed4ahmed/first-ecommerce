@@ -66,7 +66,7 @@ const Section = ({ subHeader, header, description, linkBtn, img, dark }) => {
                     <span className={classes.icon}>
                       <FiShoppingCart />
                     </span>
-                    Order Now
+                    Request now
                   </Button>
                 </Link>
               </div>

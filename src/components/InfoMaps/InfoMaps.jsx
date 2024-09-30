@@ -2,7 +2,7 @@ import { Button, Container, Typography } from "@material-ui/core";
 import React from "react";
 import { useStyles } from "./InfoMaps.elements";
 import { SiGooglemaps } from "react-icons/si";
-import { FaWhatsapp, FaPhone, FaFacebookMessenger } from "react-icons/fa";
+import { FaWhatsapp, FaPhone, FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 import Maps from "./Maps/Maps";
@@ -45,14 +45,14 @@ const InfoMaps = () => {
                 </Typography>
 
                 <Typography variant="h6" className={classes.subTitle}>
-                  Messenger:{" "}
+                  Instgram:{" "}
                   <a
-                    href="https://www.messenger.com/t/61566517260195/?messaging_source%3Apages%message_shortlink"
-                    target="__blank"
-                    aria-label="Messenger"
-                    rel="noreferrer"
+                     rel="noopener noreferrer"
+                     href="https://www.instagram.com/sim79972?igsh=MTJ4MTBkbHpkcmQ1Yg%3D%3D&utm_source=qr"
+                     target="__blank"
+                     aria-label="Instagram"
                   >
-                    <FaFacebookMessenger /> Messenger{" "}
+                    <FaInstagram /> Instgram{" "}
                   </a>
                 </Typography>
               </div>

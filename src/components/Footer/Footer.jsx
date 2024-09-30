@@ -48,7 +48,7 @@ const Footer = () => {
             <a
               className={classes.footer__rightLink}
               rel="noopener noreferrer"
-              href="https://www.instagram.com/sim79972?igsh=MTJ4MTBkbHpkcmQ1Yg%3D%3D&utm_source=qr "
+              href="https://www.instagram.com/sim79972?igsh=MTJ4MTBkbHpkcmQ1Yg%3D%3D&utm_source=qr"
               target="__blank"
               aria-label="Instagram"
             >

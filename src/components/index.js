@@ -3,7 +3,7 @@ export { default as HeroPage } from "./HeroPage/HeroPage";
 export { default as InfoSection } from "./InfoSection/InfoSection";
 export { default as HighlightPosts } from "./HighlightPosts/HighlightPosts";
 export { default as InfoMaps } from "./InfoMaps/InfoMaps";
-export { default as InstaPosts } from "./InstaPosts/InstaPosts";
+// export { default as InstaPosts } from "./InstaPosts/InstaPosts";
 export { default as RecentPosts } from "./RecentPosts/RecentPosts";
 export { default as SinglePost } from "./SinglePost/SinglePost";
 export { default as SingleProduct } from "./SingleProduct/SingleProduct";
