@@ -24,10 +24,11 @@ const Membership = () => {
   const classes = useStyles();
   const [spinner, setSpinner] = useState(true);
   const [name, setName] = useState("");
-  const [dob, setDob] = useState("");
   // const [location, setLocation] = useState("");
   const [email, setEmail] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
+  const [message , setMessage ] = useState("");
+  const [companyName , setCompanyName ] = useState("");
   // eslint-disable-next-line
   const [error, setError] = useState("");
   const [disabledButton, setDisabledButton] = useState(true);
@@ -40,10 +41,10 @@ const Membership = () => {
   }, []);
 
   useEffect(() => {
-    if ((name !== "") & (dob !== "") & (phoneNumber !== "")) {
+    if ((name !== "") & (message  !== "") & (phoneNumber !== "")) {
       setDisabledButton(false);
     }
-  }, [name, dob, phoneNumber, disabledButton]);
+  }, [name, message , phoneNumber, disabledButton]);
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -59,7 +60,8 @@ const Membership = () => {
         phoneNumber: phoneNumber,
         name: name,
         emailAddress: email,
-        dob: dob,
+        message : message ,
+        companyName : companyName ,
       })
       .then()
       .catch(function (error) {
@@ -71,9 +73,11 @@ const Membership = () => {
     setModal(false);
     setDisabledButton(true);
     setName("");
-    setDob("");
     setPhoneNumber("");
     setEmail("");
+    setMessage ("");
+    setCompanyName ("");
+
   };
 
   return (
@@ -88,9 +92,12 @@ const Membership = () => {
               setModal(false);
               setDisabledButton(true);
               setName("");
-              setDob("");
               setPhoneNumber("");
               setEmail("");
+              setMessage ("");
+              setCompanyName ("");
+
+
             }}
             aria-labelledby="simple-modal-title"
             aria-describedby="simple-modal-description"
@@ -107,7 +114,7 @@ const Membership = () => {
                 Simksa
               </Typography>
               <p className={classes.description}>
-              Your request has been send successfully. We will contact you as soon as possible. Thank you              </p>
+              Your request has been send successfully. We will contact you as soon as possible. Thank you </p>
               <div className={classes.buttonGroup}>
                 <Link to="/">
                   <Button variant="contained" className={classes.button}>
@@ -129,7 +136,7 @@ const Membership = () => {
               <div className={classes.column}>
                 <div className={classes.textWrapper}>
                   <Typography variant="h4" className={classes.headerText}>
-                  Your order
+                  Your Request
                   </Typography>
                   <p className={classes.description}>
                   Please share the information with Simksa</p>
@@ -143,14 +150,13 @@ const Membership = () => {
                     onChange={(event) => setName(event.target.value)}
                   />
                   <p id="category" className={classes.label}>
-                   The date your request was received :(*)
+                   Your Message :(*)
                   </p>
                   <TextField
                     id="outlined-basic2"
                     variant="outlined"
-                    placeholder={dob}
-                    type="date"
-                    onChange={(event) => setDob(event.target.value)}
+                    placeholder={message }
+                    onChange={(event) => setMessage (event.target.value)}
                   />
 
                   <p id="category" className={classes.label}>
@@ -163,6 +169,7 @@ const Membership = () => {
                     type="email"
                     onChange={(event) => setEmail(event.target.value)}
                   />
+
                   <p id="category" className={classes.label}>
                     Phone number : (*)
                   </p>
@@ -172,6 +179,17 @@ const Membership = () => {
                     placeholder={phoneNumber}
                     onChange={(event) => setPhoneNumber(event.target.value)}
                   />
+
+                  <p id="category" className={classes.label}>
+                    Company Name : (*)
+                  </p>
+                  <TextField
+                    id="outlined-basic4"
+                    variant="outlined"
+                    placeholder={companyName}
+                    onChange={(event) => setCompanyName(event.target.value)}
+                  />
+
                   <Button
                     variant="contained"
                     className={classes.button}

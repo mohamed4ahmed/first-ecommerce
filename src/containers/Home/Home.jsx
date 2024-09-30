@@ -204,10 +204,10 @@ const Home = () => {
             <InfoSection />
           </LazyLoadComponent>
           <LazyLoadComponent>
-            <InfoMaps />
+            <Products products={special} />
           </LazyLoadComponent>
           <LazyLoadComponent>
-            <Products products={special} />
+            <InfoMaps />
           </LazyLoadComponent>
           <LazyLoadComponent>
             <HighlightPosts />

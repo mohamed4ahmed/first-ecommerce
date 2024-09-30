@@ -7,7 +7,7 @@ import {
 import React from "react";
 import { Link } from "react-router-dom";
 import { useStyles } from "./SingleProduct.elements";
-import { FaAngellist, FaWhatsapp, FaFacebookMessenger } from "react-icons/fa";
+import { FaAngellist, FaWhatsapp } from "react-icons/fa";
 import { AiOutlineLike } from "react-icons/ai";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
@@ -43,13 +43,13 @@ const SingleProduct = ({ product, special }) => {
                     <Typography variant="h4" className={classes.headerText}>
                       {product.title}
                     </Typography>
-                    <p className={classes.price}>{product.price} $</p>
+                    {/* <p className={classes.price}>{product.price} $</p> */}
                     <Link to="/membership/">
                       <Button
                         variant="contained"
                         className={`${classes.button}`}
                       >
-                        BUY NOW
+                        Request now 
                       </Button>
                     </Link>
                     <p className={classes.phone}>
@@ -66,14 +66,8 @@ const SingleProduct = ({ product, special }) => {
                       >
                         <FaWhatsapp />
                       </a>
-                      <a
-                        href="whatsapp://send?text=order-from-website&phone=+966539941921"
-                        className={classes.whatsappicon}
-                      >
-                        <FaWhatsapp />
-                      </a>
                     </p>
-                    <p className={classes.phone}>
+                    {/* <p className={classes.phone}>
                       {" "}
                       Order By Messenger:{" "}
                       <a
@@ -85,7 +79,7 @@ const SingleProduct = ({ product, special }) => {
                       >
                         <FaFacebookMessenger />
                       </a>
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>
