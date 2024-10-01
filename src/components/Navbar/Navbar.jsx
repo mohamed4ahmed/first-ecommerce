@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <>
-      <IconContext.Provider value={{ color: "#fff" }}>
+      <IconContext.Provider value={{ color: "#191919" }}>
         <div className={classes.nav}>
           <AppBar position="fixed" style={{ background: "#fff" }}>
             <Container maxWidth="lg">

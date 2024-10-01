@@ -67,7 +67,7 @@ export const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down("md")]: {
       width: "100%",
       height: "calc(100vh - 80px)",
-      background: "#191919",
+      background: "#fff",
       display: "flex",
       flexDirection: "column",
 
