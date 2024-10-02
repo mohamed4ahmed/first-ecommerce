@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 export const useStyles = makeStyles((theme) => ({
   nav: {
     background: "#191919",   
-    height: "100px",
+    height: "90px",
   },
 
   appBar: {
@@ -13,7 +13,6 @@ export const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     fontSize: "20px",
     height: "90px",
-
   },
 
   nav__logo: {
