@@ -39,7 +39,7 @@ const Footer = () => {
             <a
               className={classes.footer__rightLink}
               rel="noopener noreferrer"
-              href="https://www.facebook.com/profile.php?id=61566517260195"
+              href="https://www.facebook.com/profile.php?id=61566559054893"
               target="__blank"
               aria-label="Facebook"
             >

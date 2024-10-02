@@ -48,7 +48,7 @@ const RecentPosts = ({ posts }) => {
       <div className={classes.social}>
         <a
           className={`${classes.socialLink} ${classes.facebook}`}
-          href="https://www.facebook.com/profile.php?id=61566517260195"
+          href="https://www.facebook.com/profile.php?id=61566559054893"
           target="__blank"
           aria-label="Facebook"
         >

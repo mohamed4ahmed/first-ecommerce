@@ -81,7 +81,7 @@ const SinglePost = ({ post, recentPosts }) => {
                           className={classes.authorImg}
                         />
                         <a
-                          href="https://www.facebook.com/profile.php?id=61566517260195"
+                          href="https://www.facebook.com/profile.php?id=61566559054893"
                           target="__blank"
                           aria-label="Author"
                           className={classes.authorName}

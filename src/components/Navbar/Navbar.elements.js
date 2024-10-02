@@ -12,7 +12,7 @@ export const useStyles = makeStyles((theme) => ({
     justifyContent: "space-between",
     alignItems: "center",
     fontSize: "20px",
-    height: "100px",
+    height: "90px",
 
   },
 
